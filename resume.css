@@ -1,3 +1,4 @@
+/* created with help from chatgbt */
 
 body {
     font-family: Arial, sans-serif;
@@ -6,19 +7,26 @@ body {
     line-height: 1.4;
     }
 
-h1, h2 {
-        margin-bottom: 0px;
-        color: coral;
+/* Pink Accent Color */
+    :root {
+        --accent: #ff6fa8; 
     }
 
+    /* Name text styled in pink */
+    h1 {
+        color: var(--accent);
+        margin-bottom: 0px;
+    }
+
+    /* Section titles styled in pink */
     .section-title {
         font-size: 20px;
         font-weight: bold;
         margin-top: 25px;
         margin-bottom: 5px;
-        color: coral;
+        color: var(--accent);
     }
-
+    
 ul {
         margin-top: 5px;
     }
